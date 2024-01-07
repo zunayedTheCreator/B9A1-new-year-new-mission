@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Philosopher:wght@400;700&family=Salsa&family=Sevillana&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* hader styles */
+.header{
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background: url(../resources/BannerImage.png);
+    position: absolute;
+}
+.banner-gradient{
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.banner{
+    padding-top: 0px;
+}
+.banner-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 60px;
+    padding-top: 130px;
+    position: absolute;
+    padding-left: 520px;
+
+}
+.banner-title{
+    color: #FFF;
+    font-family: Sevillana;
+    font-size: 82px;
+    font-weight: 900;
+    line-height: 85px;
+    width: 632px;
+    text-align: center;
+    padding-left: 330px;
+    position: absolute;
+    padding-top: 220px;
+}
