@@ -469,11 +469,10 @@
 .portfolio-des p{
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
 }
 .portfolio-des{
     width: 700px;
@@ -518,11 +517,91 @@
     padding: 5px;
     transition: 0.5s;
     cursor: pointer;
-    padding-bottom: 100px;
 }
 .imagee:hover{
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
     transition: 0.5ss ;  
+}
+.emptyyyyy{
+    width: 100%;
+    height: 400px;
+    padding-bottom: 570px;
+}
+/* email section */
+.email-container{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.email-img{
+    padding-top: 50px;
+}
+.email-title{
+    padding-top: 30px;
+}
+.email-title h2{
+    color: #070211;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+.email-des{
+    padding-top: 15px;
+}
+.email-des p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.eamil-input{
+
+}
+.email-input input{
+    width: 448px;
+    height: 62px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    right: 250px;
+    top: 440px;
+    margin: 0 auto;
+}
+.email-btn input{
+    width: 210px;
+    height: 66px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    left: 410px;
+    right: 0;
+    top: 440px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.email-btn input:hover{
+    background: rgb(141, 7, 7);
 }
