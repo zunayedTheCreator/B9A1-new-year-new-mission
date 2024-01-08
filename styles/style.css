@@ -171,5 +171,93 @@
     top: 1800px;
     margin: 0 auto;
     z-index: 5;
+}
+.emptyy{
+    width: 100%;
+    height: 100px;
+}
 
+/* Red Gradient styles */
+.red-gradient{
+    text-align: center;
+}
+.back-red-gradient{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 20px;
+    width: 1320px;
+    height: 482px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+.red-content-text1{
+    position: absolute;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 90px;
+    z-index: 2;
+}
+.red-content-text2{
+    position: absolute;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 150px;
+    z-index: 2;
+}
+.red-content-text3{
+    position: absolute;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-top: 210px;
+    z-index: 3;
+}
+.red{
+    color: red;
+}
+.red-content-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-weight: 700;
+    width: 165px;
+    height: 55px;
+    border-radius: 10px;
+    background: #F00;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.red-content-btn:hover{
+    background: rgb(148, 5, 5);
+}
+.red-button-con{
+    position: absolute;
+    padding-top: 330px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 4;
+}
+.emptyyy{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 100px;
 }
