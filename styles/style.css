@@ -563,9 +563,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-}
-.eamil-input{
-
+    padding-bottom: 350px;
 }
 .email-input input{
     width: 448px;
@@ -604,4 +602,179 @@
 }
 .email-btn input:hover{
     background: rgb(141, 7, 7);
+}
+
+/* footer */
+.footer{
+    width: 1349px;
+    height: 609px;
+    background: #070211;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 800px;
+}
+.foot-add{
+    width: 400px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 800px;
+    top: 6840px;
+    margin: 0 auto;
+}
+.foot-add h5{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.foot-addd{
+    width: 400px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 800px;
+    top: 6890px;
+    margin: 0 auto;
+}
+.foot-addd h5{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.foot-num{
+    width: 300px;
+    height: 0;
+    position: absolute;
+    left: 1000px;
+    right: 0;
+    top: 6840px;
+    margin: 0 auto;
+}
+.foot-num h5{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.foot-web{
+    width: 300px;
+    height: 0;
+    position: absolute;
+    left: 1000px;
+    right: 0;
+    top: 6890px;
+    margin: 0 auto;
+}
+.foot-web h5{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.foot-hr1{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 1250px;
+    top: 6960px;
+    margin: 0 auto;
+}
+.foot-hr1 hr{
+    width: 1240px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.foot-img1{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 300px;
+    top: 6990px;
+    margin: 0 auto;
+}
+.foot-img2{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 150px;
+    top: 6990px;
+    margin: 0 auto;
+}
+.foot-img3{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6990px;
+    margin: 0 auto;
+}
+.foot-img4{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 150px;
+    right: 0;
+    top: 6990px;
+    margin: 0 auto;
+}
+.foot-hr2{
+    width: 0px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 1250px;
+    top: 7150px;
+    margin: 0 auto;
+}
+.foot-hr2 hr{
+    width: 1240px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.foot-rights{
+    width: 400px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 800px;
+    top: 7170px;
+    margin: 0 auto;
+}
+.foot-rights h5{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.foot-btn{
+    width: 400px;
+    height: 0;
+    position: absolute;
+    left: 1030px;
+    right: 0;
+    top: 7165px;
+    margin: 0 auto;
+}
+.foot-btn button{
+    width: 120px;
+    height: 50px;
+    background: rgb(51, 5, 5);
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+.foot-btn button:hover{
+    background: rgb(0, 0, 0);
 }
