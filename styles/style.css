@@ -583,7 +583,7 @@
 }
 .email-btn input{
     width: 210px;
-    height: 66px;
+    height: 64px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: #FFF;
@@ -774,6 +774,7 @@
     color: #FFF;
     border: none;
     border-radius: 10px;
+    transition: 0.3s;
 }
 .foot-btn button:hover{
     background: rgb(0, 0, 0);
