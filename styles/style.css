@@ -774,7 +774,7 @@
     color: #FFF;
     border: none;
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.3s;cursor: pointer;
 }
 .foot-btn button:hover{
     background: rgb(0, 0, 0);
